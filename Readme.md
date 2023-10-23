@@ -4,11 +4,12 @@ This is a list of DSA questions made in JavaScript.
 
 ## 🔗 Links
 
-- LeetCode Question Links:
-
-  - LeetCode Question links:
-    - 2. [isValidPalindromeNumber (LeetCode #2)](https://leetcode.com/problems/palindrome-number/)
-      - Description: Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
-      - Difficulty: Easy
-      - Solution: [Link to Solution](https://github.com/yourusername/leetcode-solutions/blob/main/javascript/isValidPalindromeNumber.js)
+- LeetCode Question Links
   
+- 1 : [Hamming Distance #461](https://leetcode.com/problems/hamming-distance/description/)
+  - Description:  The Hamming distance between two integers is the number of positions at which the corresponding bits are different. Given two integers x and y, calculate the Hamming distance.
+  - Difficulty: Easy
+  - Solution: [Link to Solution](https://leetcode.com/problems/hamming-distance/solutions/4199909/hamming-distnace-solution-in-javascript-beats-80-of-the-users/)
+  
+
+ 

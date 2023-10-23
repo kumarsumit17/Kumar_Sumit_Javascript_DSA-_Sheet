@@ -1,0 +1,51 @@
+{
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true,
+    "browser": true,
+    "jest/globals": true
+  },
+  "extends": ["eslint:recommended"],
+  "plugins": ["jest"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "rules": {
+    "camelcase": "error",
+    "constructor-super": "error",
+    "consistent-return": "off",
+    "getter-return": "error",
+    "guard-for-in": "off",
+    "no-cond-assign": "warn",
+    "no-const-assign": "error",
+    "no-constant-condition": "warn",
+    "no-duplicate-case": "warn",
+    "no-else-return": "warn",
+    "no-extra-boolean-cast": "warn",
+    "no-global-assign": "error",
+    "no-invalid-regexp": "error",
+    "no-misleading-character-class": "error",
+    "no-process-exit": "error",
+    "no-prototype-builtins": "off",
+    "no-template-curly-in-string": "warn",
+    "no-undef": "error",
+    "no-unused-vars": "warn",
+    "no-unreachable": "warn",
+    "no-use-before-define": "error",
+    "no-useless-catch": "warn",
+    "no-useless-escape": "warn",
+    "no-useless-return": "warn",
+    "no-var": "warn",
+    "prefer-promise-reject-errors": "off",
+    "prefer-const": "warn",
+    "require-jsdoc": "off",
+    "require-atomic-updates": "off",
+    "strict": "warn",
+    "function-paren-newline": 0
+  }
+}
